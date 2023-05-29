@@ -1139,9 +1139,6 @@ select {
 .w-6 {
   width: 1.5rem;
 }
-.w-64 {
-  width: 16rem;
-}
 .w-7\/12 {
   width: 58.333333%;
 }
@@ -1226,10 +1223,6 @@ select {
 }
 .-translate-x-full {
   --tw-translate-x: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.translate-x-0 {
-  --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .translate-x-full {
@@ -2074,11 +2067,6 @@ select {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.transition-opacity {
-  transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
 .transition-transform {
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -2881,16 +2869,8 @@ select {
 }
 @media (min-width: 1024px) {
 
-  .lg\:static {
-    position: static;
-  }
-
   .lg\:absolute {
     position: absolute;
-  }
-
-  .lg\:inset-0 {
-    inset: 0px;
   }
 
   .lg\:left-auto {
@@ -2972,11 +2952,6 @@ select {
 
   .lg\:basis-auto {
     flex-basis: auto;
-  }
-
-  .lg\:translate-x-0 {
-    --tw-translate-x: 0px;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .lg\:cursor-pointer {

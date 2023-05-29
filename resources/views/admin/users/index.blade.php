@@ -57,8 +57,8 @@
             </table>
         </div>
     </div>
-</x-admin-layout>
- --}}
+</x-admin-layout> --}}
+
 
 
 <x-admin-layout>
@@ -141,7 +141,7 @@
                                         </td>
                                         <td
                                             class="p-2 align-middle bg-transparent border-b-0 whitespace-nowrap shadow-transparent">
-                                            <a href="javascript:;"
+                                            <a href="{{ route('admin.users.edit', $user->id) }}"
                                                 class="font-semibold leading-tight text-size-xs text-slate-400"> Edit
                                             </a>
                                         </td>
